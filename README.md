@@ -1,62 +1,39 @@
-# TweekfakeLLM: AI vs. Human Comment Classifier
+# TweepFakeLLM: AI vs. Human Comment Classifier
 
 ## Overview
-This project leverages the capabilities of advanced Large Language Models (LLMs) to accurately classify comments within the TweepFake dataset as either AI-generated or human-generated. Our goal is to enhance the understanding and detection of AI-generated text in social media platforms, contributing to the broader efforts of ensuring authenticity and transparency online.
-
-## Objective
-The primary aim of this project is to develop a highly accurate classification system that can distinguish between AI and human-generated comments. This involves training sophisticated LLMs on the TweepFake dataset, which contains a diverse range of comments with varying levels of complexity and style.
+Utilizing Large Language Models (LLMs) to distinguish between AI-generated and human-generated comments in the TweepFake dataset, aiming to bolster online authenticity.
 
 ## Features
-- **Data Preprocessing**: Scripts to clean and preprocess the TweepFake dataset for optimal model training.
-- **Model Training**: A detailed pipeline for training LLMs on the processed dataset, including parameter tuning and optimization strategies.
-- **Classification Interface**: A user-friendly interface for submitting comments to the model and receiving classifications in real time.
-- **Evaluation Metrics**: Comprehensive metrics to evaluate the model's performance, including accuracy, precision, recall, and F1 score.
-- **Visualization Tools**: Tools for visualizing the model's decision-making process and the distribution of AI vs. human comments within the dataset.
+- **Data Preprocessing**: Prepare the TweepFake dataset for model training.
+- **Model Training**: Use LLMs for accurate classification.
+- **Real-Time Classification**: Interface for instant comment classification.
 
-## Getting Started
+## Quick Start
 
 ### Prerequisites
-- Python 3.8 or later
-- PyTorch 1.8 or later
-- Transformers library
-- Pandas
-- Numpy
+Ensure you have Python 3.8 or newer, along with PyTorch, Transformers, Pandas, and Numpy installed.
 
-### Installation
-1. Clone the repository:
-```
+### Setup
+Clone the repository and install dependencies:
+```bash
 git clone https://github.com/shreel143/ai-vs-human-comment-classifier.git
-```
-2. Install required dependencies:
-```
 cd ai-vs-human-comment-classifier
 pip install -r requirements.txt
 ```
 
 ### Usage
-1. Preprocess the dataset:
-```
+To preprocess data, train the model, and classify comments:
+```bash
 python preprocess_data.py
-```
-2. Train the model:
-```
 python train_model.py
-```
-3. Classify comments:
-```
 python classify_comment.py --comment "Your comment here"
 ```
 
 ## Contributing
-We welcome contributions from the community. Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to the project.
+We welcome contributions. For significant changes, please email us at shreeltrivedi2020@gmail.com to discuss what you'd like to change or add.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-- TweepFake dataset contributors
-- OpenAI for providing access to LLMs
-- The AI research community for their continuous support and inspiration
+This project is open source, available under the MIT License.
 
 ## Contact
-For any inquiries or contributions, please contact us at shreeltrivedi2020@gmail.com.
+Questions or contributions? Email us at shreeltrivedi2020@gmail.com.
